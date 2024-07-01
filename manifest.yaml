@@ -1,0 +1,9 @@
+---
+applications:
+- name: mtlstester
+  path: target/mtlstester-0.0.1-SNAPSHOT.jar
+#  buildpacks:
+#    - java_buildpack_latest
+  env:
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 17.+ } }'
+
