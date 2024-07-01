@@ -18,3 +18,7 @@ This will insist request carries a client cert with that CN
 
 Provide cert and key then use 'curltest.sh' to validate gateway filter.
 ![image](https://github.com/tfynes-pivotal/mtlstester/assets/6810491/297638fc-e2d7-4730-a8b1-f912c09a006b)
+
+
+Gateway Configuration
+![image](https://github.com/tfynes-pivotal/mtlstester/assets/6810491/993bc90b-1c24-46a3-90d8-5f7372310abf)
