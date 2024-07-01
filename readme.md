@@ -3,6 +3,9 @@
 
 java application to print out incoming request client http header
 
+Detailed background on mTLS and TAS with SpringCloudGateway powered client cert based authorization
+https://tfynes-pivotal.github.io/tas-idea/last-mile-api-gateway/index.html
+
 
 ### Create SCG app facade
 ```
