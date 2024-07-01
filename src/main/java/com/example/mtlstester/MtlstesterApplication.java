@@ -28,15 +28,15 @@ public class MtlstesterApplication {
         System.out.println(headers.toString());
 		retVal += headers.toString() + "\n";
 
-		Enumeration<String> headerNames = request.getHeaderNames();
-		while (headerNames.hasMoreElements()) {
-			String headerName = headerNames.nextElement();
-			String headerValue = request.getHeader(headerName);
-			// if (headerName == "x-forwarded-client-cert")
-			retVal += "headerName: " + headerName + "\t\theaderValue: " + headerValue + "\n";
-		}
+		// Enumeration<String> headerNames = request.getHeaderNames();
+		// while (headerNames.hasMoreElements()) {
+		// 	String headerName = headerNames.nextElement();
+		// 	String headerValue = request.getHeader(headerName);
+		// 	// if (headerName == "x-forwarded-client-cert")
+		// 	retVal += "headerName: " + headerName + "\t\theaderValue: " + headerValue + "\n";
+		// }
 
-		retVal += "\n\n\n";
+		// retVal += "\n\n\n";
 
 		// Enumeration<String> attributeNames = request.getAttributeNames();
 		// while (attributeNames.hasMoreElements()) {
