@@ -22,3 +22,7 @@ Provide cert and key then use 'curltest.sh' to validate gateway filter.
 
 Gateway Configuration
 ![image](https://github.com/tfynes-pivotal/mtlstester/assets/6810491/993bc90b-1c24-46a3-90d8-5f7372310abf)
+
+
+When a call hits the gateway without the appropriate client cert in the mTLS handshake - result is a 401
+![image](https://github.com/tfynes-pivotal/mtlstester/assets/6810491/7486ec5c-5ae5-45b5-a012-fe46e3483e2a)
