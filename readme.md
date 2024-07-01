@@ -14,6 +14,7 @@ cf create-service p.gateway standard mtlstester-facade -c '{"host":"mtlstesterfa
 cf bind-service mtlstester mtlstester-facade -c '{"routes": [{"path": "/**", "filters": ["ClientCertificateHeader=testclient.fynesy.com"] }] }' 
 ```
 
-this will insist request carries a client cert with that CN
+This will insist request carries a client cert with that CN
 
-provide cert and key then use 'curltest.sh' to validate gateway filter.
+Provide cert and key then use 'curltest.sh' to validate gateway filter.
+![image](https://github.com/tfynes-pivotal/mtlstester/assets/6810491/297638fc-e2d7-4730-a8b1-f912c09a006b)
